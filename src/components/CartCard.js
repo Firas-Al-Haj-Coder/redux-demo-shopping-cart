@@ -13,7 +13,9 @@ export default function CartCard({ prod }) {
       <img src={image} alt="bild" />
       <p className="productName">{name}</p>
       <p className="productPrice">{price}</p>
-      <button onClick={() => dispatch(remove(prod))}>Remove</button>
+      <button onClick={() => dispatch(remove(prod))}>Remove</button> {/**prod is being passed as action with prod being under payload 
+       * {type: 'cart/remove', payload: {id, name, price, etc…}}
+      */}
     </div>
 
   )

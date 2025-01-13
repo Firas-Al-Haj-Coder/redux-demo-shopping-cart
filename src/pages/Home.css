@@ -11,3 +11,11 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+/* Media Query für mobile Bildschirme */
+@media (max-width: 550px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}
