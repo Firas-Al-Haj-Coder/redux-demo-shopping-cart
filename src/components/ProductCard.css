@@ -59,3 +59,11 @@
   background-color: #8e090f;
 }
 
+/* Media Query für mobile Bildschirme */
+
+
+@media (max-width: 782px) {
+  .productCard {
+    width: 45%;
+  }
+}
